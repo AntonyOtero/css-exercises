@@ -1,0 +1,13 @@
+.btn-dark, .btn-highlight {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', sans-serif;
+}
+
+.btn-dark {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-highlight {
+    background-color: yellow;
+}

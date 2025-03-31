@@ -1,0 +1,18 @@
+.bg-pink {
+    background-color: #ffc0cb;
+    font-family: 'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#DivOne {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+.cooler, #DivTwo {
+    font-size: 24px;
+}
+
+#DivTwo {
+    background-color: #adf7ad;
+    font-weight: bold;
+}

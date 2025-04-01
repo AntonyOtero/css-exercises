@@ -31,8 +31,27 @@ body {
 
 .sidebar {
   width: 300px;
+  padding: 15px;
   background: royalblue;
   box-sizing: border-box;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #212121;
 }
 
 .card {

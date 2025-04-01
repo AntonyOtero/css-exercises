@@ -67,3 +67,10 @@ input {
   align-items: center;
   gap: 20px;
 }
+
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee;
+}

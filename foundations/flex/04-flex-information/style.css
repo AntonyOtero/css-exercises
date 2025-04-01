@@ -1,10 +1,38 @@
 body {
+  width: 100vw;
+  height: calc(100vh - 52px);
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.plants,
+.plant {
+  display: flex;
+}
+
+.plants {
+  gap: 50px;
+}
+
+.plant {
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .title {
